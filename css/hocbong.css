@@ -1,0 +1,60 @@
+.hocbong{
+    margin: 10px auto;
+}
+.row{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hocbong-body-item{
+    display: flex;
+    margin: 10px auto;
+}
+.hocbong-body-item-left{
+    margin: 0 10px;
+}
+h5{
+    color: #173080;
+}
+h5:hover{
+    cursor: pointer;
+    color: rgb(160, 70, 70);
+}
+.hocbong-content{
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+.hocbong-content-left-item p{
+    font-size:14px;
+}
+.hocbong-content-right{
+    padding: 0 20px;
+}
+.hocbong-content-right h3{
+    background-color: #10acc5;
+    color: white;
+    font-size:20px;
+    padding: 10px 20px;
+}
+.hoc-bong-right-item{
+    display: flex;
+}
+.field-content{
+    margin: 10px 0;
+}
+.field-content img{
+    margin-right: 10px;
+}
+.views-field-title{
+    margin-top: 5px;
+}
+.hocbong-content-left-item{
+    padding-bottom: 10px;
+}
+.hocbong-header{
+    padding: 10px;
+    width: 1180px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}

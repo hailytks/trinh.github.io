@@ -1,0 +1,176 @@
+
+.container-form{
+    width: 600px;
+    background-color: white;
+    margin: 10px 0;
+}
+.container-heading-form{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.container-heading-form{
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+    font-size: 1.3rem;
+    text-align: center;
+    height: 60px;
+    margin-right: 10px;
+    line-height: 40px;
+    color: blue;
+}
+.input-submit-dn{
+    display: flex;
+}
+.dangki-form-p{
+    text-align: center;
+    margin: 10px;
+}
+.form-group input:hover{
+    border: solid 1px aqua;
+}
+.container-click{
+    color: rgb(27, 168, 255);
+}
+.form-group ,.form-group1{
+    margin: 10px 0 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group label{
+    display: block;
+    width: 100px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.form-group input{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 450px;
+    display: block;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.form-message{
+    margin: 5px 0;
+}
+.form-group1 label{
+    display: block;
+    width: 100px;
+}
+.form-group1 input{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.checkbox{
+    display: flex;
+    margin: 10px 30px;
+    align-items: center;
+}
+.checkbox label{
+    font-size: 0.8rem;
+    margin-left: 5px;
+   
+}
+#submit,#submit1{
+    display: block;
+    border: 0;
+    border-radius: 3px;
+    height: 50px;
+    width: 275px;
+    background-color: rgb(253, 216, 53);
+}
+#submit{
+    margin: 10px 10px 10px 30px;
+    color: white;
+    background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+}
+#submit1{
+    margin: 10px 0 10px 0;
+    color: white;
+    background: -webkit-linear-gradient(top, #288ad6, #0e74c2);
+}
+#submit:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+#submit:focus{
+    outline: none;
+}
+#text{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#text a{
+    text-decoration: none;
+    color: rgb(0, 127, 240);
+}
+.form-group1{
+    align-items: center;
+    
+}
+.dangnhap{
+    display: none;
+}
+.error-color input{
+    border: red solid 2px;
+}
+.error-color ::placeholder{
+    color: red;
+}
+.error-color .form-message{
+    color: red;
+    display: block;
+}
+.error-color label{
+    color: red;
+}
+.form-group input:focus{
+    outline: none;
+}
+
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
